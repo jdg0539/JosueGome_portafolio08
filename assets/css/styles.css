@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-size: 50px; */
+}
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ===================== Navegación =========================== */
+.menu li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.menu a {
+    color: #717171;
+}
+
+
+/* ===================== Intro =========================== */
+.intro {
+    background-color: #fef2f2;
+    min-height: 100vh;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.icon-container {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #f26440;
+    border-radius: 50%;
+    line-height: 3.2;
+    text-align: center
+}
+
+/* ===================== layout =========================== */
+.container {
+    width: 90%;
+    margin: auto;
+}
